@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { storage, db } from "../firebase/firebase-config";
-import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
+import { ref, uploadBytes, getDownloadURL, getStorage } from "firebase/storage";
 import { doc, updateDoc, getDoc } from "firebase/firestore";
 import { TextureLoader } from "three";
 
